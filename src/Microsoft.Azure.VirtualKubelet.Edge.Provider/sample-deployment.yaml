@@ -19,7 +19,7 @@ spec:
         app: tempSensor
       annotations:
         isEdgeDeployment: "true"
-        targetCondition: "tags.building='b43'"
+        targetCondition: ""
         priority: "15"
         loggingOptions: ""
     spec:
